@@ -1,4 +1,8 @@
-*foreground:#e8e9ca
-*background:#222222
-
-*font:xft:monospace:size=12
+xterm*faceName: Monospace
+xterm*faceSize: 9
+xterm*savelines:  2048
+xterm*foreground: rgb:ee/ee/ee
+xterm*background: rgp:23/23/23
+xterm*rightScrollBar: false
+xterm*ScrollBar:  false
+xterm*vt100*geometry: 80x24
