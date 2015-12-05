@@ -2,7 +2,7 @@ xterm*faceName: Monospace
 xterm*faceSize: 9
 xterm*savelines:  2048
 xterm*foreground: rgb:ee/ee/ee
-xterm*background: rgp:23/23/23
+xterm*background: rgb:23/23/23
 xterm*rightScrollBar: false
 xterm*ScrollBar:  false
 xterm*vt100*geometry: 80x24
