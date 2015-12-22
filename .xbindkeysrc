@@ -11,37 +11,33 @@
 #       associated key
 #
 
-keystate_numlock = enable
-#keystate_capslock = enable
-
 # xterm, Super + t
 "xterm -u8"
-   m:0x50 + c:28
-
-# Volume Control
-"pamixer --increase 3"
-   XF86AudioRaiseVolume
-"pamixer --decrease 3"
-   XF86AudioLowerVolume
+   m:0x40 + c:28
 
 # cmus, Super + m
-"xterm-big -e cmus"
-   m:0x50 + c:58
+#"xterm-big -e cmus"
+#   m:0x40 + c:58
 
-# slock, basic lock, Super + l
-"slock"
-   m:0x50 + c:46
+# xflock4, Super + l
+"xflock4"
+   m:0x40 + c:46
+
 # thunar, file manager,  Super + f
 "thunar"
-   m:0x50 + c:41
+   m:0x40 + c:41
 
 # dmenu, Super + d
 "dmenu_run"
-   m:0x50 + c:40
+   m:0x40 + c:40
 
 # speedcrunch, calculator, Super + c
 "speedcrunch"
-   m:0x50 + c:54
+   m:0x40 + c:54
+
+# iceweasel, Super + w
+"iceweasel"
+   m:0x40 + c:25
 
 ##################################
 # End of xbindkeys configuration #
