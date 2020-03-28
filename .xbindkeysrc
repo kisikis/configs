@@ -1,4 +1,3 @@
-# For the benefit of emacs users: -*- shell-script -*-
 ###########################
 # xbindkeys configuration #
 ###########################
@@ -11,33 +10,57 @@
 #       associated key
 #
 
-# xterm, Super + t
-"xterm -u8"
+# thunderbird (email client), Super + q
+"thunderbird"
+   m:0x40 + c:24
+
+# firefox (web browser), Super + w
+"firefox"
+   m:0x40 + c:25
+
+# ranger (cli file manager), Super + r
+"urxvt -geometry 140x50 -e 'ranger'"
+   m:0x40 + c:27
+
+# urxvt (terminal emulator), Super + t
+"urxvt"
    m:0x40 + c:28
 
-# cmus, Super + m
-#"xterm-big -e cmus"
-#   m:0x40 + c:58
+# urxvt, extra big, Super + Shift + t
+"urxvt -geometry 80x60"
+   m:0x41 + c:28
+
+# yewtape (play music from YouTube), Super + y
+"urxvt -geometry 48x20 -bg darkred -fg white -e 'yewtape'"
+   m:0x40 + c:29
+
+# radio (play online radio ), Super + u
+"urxvt -geometry 48x20 -bg darkblue -fg white -e 'radio'"
+   m:0x40 + c:30
+
+# StarDict (Dictionary), Super + d
+"urxvt -geometry 80x60 -bg '#2b5797' -fg white -e 'sdcv'"
+   m:0x40 + c:40
+
+# thunar (file manager),  Super + f
+"thunar"
+   m:0x40 + c:41
 
 # xflock4, Super + l
 "xflock4"
    m:0x40 + c:46
 
-# thunar, file manager,  Super + f
-"thunar"
-   m:0x40 + c:41
-
-# dmenu, Super + d
-"dmenu_run"
-   m:0x40 + c:40
-
-# speedcrunch, calculator, Super + c
+# speedcrunch (calculator), Super + c
 "speedcrunch"
    m:0x40 + c:54
 
-# iceweasel, Super + w
-"iceweasel"
-   m:0x40 + c:25
+# leafpad (notepad), Super + n
+"leafpad"
+   m:0x40 + c:57
+
+# dmenu, Super + Space
+"dmenu_run"
+   m:0x40 + c:65
 
 ##################################
 # End of xbindkeys configuration #
