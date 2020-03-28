@@ -38,6 +38,10 @@
 "urxvt -geometry 48x20 -bg darkblue -fg white -e 'radio'"
    m:0x40 + c:30
 
+# Bitwarden (password manager=, Super + p
+"bitwarden"
+   m:0x40 + c:33
+
 # StarDict (Dictionary), Super + d
 "urxvt -geometry 80x60 -bg '#2b5797' -fg white -e 'sdcv'"
    m:0x40 + c:40
