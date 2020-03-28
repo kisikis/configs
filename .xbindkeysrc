@@ -34,11 +34,11 @@
 "urxvt -geometry 48x20 -bg darkred -fg white -e 'yewtape'"
    m:0x40 + c:29
 
-# radio (play online radio ), Super + u
+# radio (play online radio), Super + u
 "urxvt -geometry 48x20 -bg darkblue -fg white -e 'radio'"
    m:0x40 + c:30
 
-# Bitwarden (password manager=, Super + p
+# Bitwarden (password manager), Super + p
 "bitwarden"
    m:0x40 + c:33
 
