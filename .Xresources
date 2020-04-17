@@ -1,6 +1,8 @@
 ! urxvt settings (rxvt-unicode)
-urxvt.font: xft:Monospace:pixelsize=14
-urxvt.boldFont: xft:Monospace:pixelsize=14
+urxvt.font: xft:Hack-Regular:pixelsize=14
+urxvt.boldFont: xft:Hack-Bold:pixelsize=14
+!urxvt.font: xft:Monospace:pixelsize=14
+!urxvt.boldFont: xft:Monospace:pixelsize=14
 urxvt.background: #111111
 urxvt.foreground: #eeeeee
 urxvt.scrollBar:		false
