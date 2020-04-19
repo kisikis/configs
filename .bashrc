@@ -79,9 +79,11 @@ else
 fi
 unset use_color safe_term match_lhs sh
 
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -hT'                         # human-readable sizes
-alias free='free -m'                      # show sizes in MB
+alias cp="cp -i"            # interactive
+alias mv="mv -i"            # interactive
+alias rm="rm -i"            # interactive
+alias df='df -hT'           # human-readable + filesystem Types
+alias free='free -m'        # show sizes in MB
 
 xhost +local:root > /dev/null 2>&1
 

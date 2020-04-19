@@ -38,6 +38,10 @@
 "urxvt -geometry 48x20 -bg darkblue -fg white -e 'radio'"
    m:0x40 + c:30
 
+# Caprine (Facebook messenger client), Super + i
+"caprine"
+   m:0x40 + c:31
+
 # Bitwarden (password manager), Super + p
 "bitwarden"
    m:0x40 + c:33
@@ -46,9 +50,13 @@
 "urxvt -geometry 80x60 -bg '#2b5797' -fg white -e 'sdcv'"
    m:0x40 + c:40
 
-# thunar (file manager),  Super + f
+# thunar (file manager), Super + f
 "thunar"
    m:0x40 + c:41
+
+# play/pause media (works in mpv and more), Super + k
+"playerctl play-pause"
+   m:0x40 + c:45
 
 # xflock4, Super + l
 "xflock4"
