@@ -8,6 +8,8 @@ urxvt.foreground: #eeeeee
 urxvt.scrollBar:		false
 urxvt.scrollBar_right:	false
 urxvt.borderLess:		true
+urxvt.internalBorder: 3
+urxvt.borderColor: #222222
 urxvt.url-launcher: /usr/bin/firefox
 urxvt.underlineURLs: true
 urxvt.urlButton: 1

@@ -12,67 +12,71 @@
 
 # thunderbird (email client), Super + q
 "thunderbird"
-   m:0x40 + c:24
+    m:0x40 + c:24
 
 # firefox (web browser), Super + w
 "firefox"
-   m:0x40 + c:25
+    m:0x40 + c:25
 
 # ranger (cli file manager), Super + r
 "urxvt -geometry 140x50 -e 'ranger'"
-   m:0x40 + c:27
+    m:0x40 + c:27
 
 # urxvt (terminal emulator), Super + t
 "urxvt"
-   m:0x40 + c:28
+    m:0x40 + c:28
 
 # urxvt, extra big, Super + Shift + t
 "urxvt -geometry 80x60"
-   m:0x41 + c:28
+    m:0x41 + c:28
 
 # yewtape (play music from YouTube), Super + y
 "urxvt -geometry 48x20 -bg darkred -fg white -e 'yewtape'"
-   m:0x40 + c:29
+    m:0x40 + c:29
 
 # radio (play online radio), Super + u
 "urxvt -geometry 48x20 -bg darkblue -fg white -e 'radio'"
-   m:0x40 + c:30
+    m:0x40 + c:30
 
 # Caprine (Facebook messenger client), Super + i
 "caprine"
-   m:0x40 + c:31
+    m:0x40 + c:31
 
 # Bitwarden (password manager), Super + p
 "bitwarden"
-   m:0x40 + c:33
+    m:0x40 + c:33
 
 # StarDict (Dictionary), Super + d
 "urxvt -geometry 80x60 -bg '#2b5797' -fg white -e 'sdcv'"
-   m:0x40 + c:40
+    m:0x40 + c:40
 
 # thunar (file manager), Super + f
 "thunar"
-   m:0x40 + c:41
+    m:0x40 + c:41
 
 # play/pause media (works in mpv and more), Super + k
 "playerctl play-pause"
-   m:0x40 + c:45
+    m:0x40 + c:45
 
 # xflock4, Super + l
 "xflock4"
-   m:0x40 + c:46
+    m:0x40 + c:46
 
 # speedcrunch (calculator), Super + c
 "speedcrunch"
-   m:0x40 + c:54
+    m:0x40 + c:54
 
 # leafpad (notepad), Super + n
 "leafpad"
-   m:0x40 + c:57
+    m:0x40 + c:57
+
+# cmus (music player), Super + m
+"urxvt -geometry 100x50 -e 'cmus'"
+    m:0x40 + c:58
 
 # dmenu, Super + Space
 "dmenu_run"
-   m:0x40 + c:65
+    m:0x40 + c:65
 
 ##################################
 # End of xbindkeys configuration #
